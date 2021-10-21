@@ -14,11 +14,14 @@
     height: 100vh;
     border: 10px solid black;
     justify-items:end;
-    align-items: end;
+    align-items: start;
+    justify-content: center;
+    align-content: end;
 }
 
 .grid-item{
     background-color: teal;
     border: 4px solid yellow;
     padding: 20px;
+    
 }
