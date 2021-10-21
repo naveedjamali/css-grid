@@ -1,7 +1,5 @@
 .flexbox-container{
 display:flex;
-justify-content:center;
-align-items: center;
 }
 
 .flexbox-item{
@@ -13,10 +11,15 @@ background-color: #dfdfdf;
 
 .flexbox-item-1{
     min-height: 100px;
+    flex-grow: 2;
+    flex-shrink: 0;
     }
 
     .flexbox-item-2{
     min-height: 200px;
+    flex-grow: 1;
+    align-self: center;
+
     }
 
     .flexbox-item-3{
