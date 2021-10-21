@@ -14,6 +14,7 @@
     height: 100vh;
     border: 10px solid black;
     justify-items:end;
+    align-items: end;
 }
 
 .grid-item{
